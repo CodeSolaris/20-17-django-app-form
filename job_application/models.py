@@ -34,8 +34,7 @@ class Form(models.Model):
         blank=False,
         null=False,
     )
-    date = models.DateTimeField(
-        auto_now_add=True,
+    date = models.DateField(
         help_text="Select a date.",
         verbose_name="Date",
         blank=False,
