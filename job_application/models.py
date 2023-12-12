@@ -1,4 +1,6 @@
 from django.db import models
+
+
 class Form(models.Model):
     """
     A class representing a form.
