@@ -34,3 +34,8 @@ def index(request):
             return redirect("index")
 
     return render(request, "index.html")
+
+def about(request):
+    return render(request, "about.html")
+
+
